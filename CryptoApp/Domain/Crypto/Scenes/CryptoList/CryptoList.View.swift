@@ -74,7 +74,7 @@ struct CryptoListView: View {
             }
             .navigationTitle(Constant.navigationTitle)
             .onAppear {
-            //    viewAppear()
+                viewAppear()
             }
         }
         .searchable(text: $cryptoStore.searchText, prompt: Constant.search)

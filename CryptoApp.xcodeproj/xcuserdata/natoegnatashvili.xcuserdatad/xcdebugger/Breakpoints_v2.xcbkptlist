@@ -52,14 +52,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E33CEA11-E04C-4F97-BCED-BC66F8E3C402 - 32d681321cc923b5"
+                  uuid = "E33CEA11-E04C-4F97-BCED-BC66F8E3C402 - 46a9461d7283aab6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "CryptoApp.CryptoListPresenter.cryptoPriceResponse(response: Swift.Result&lt;NetworkLayer.CryptoPricesResponse, NetworkLayer.ErrorType&gt;) -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "41"
@@ -67,14 +67,14 @@
                   offsetFromSymbolStart = "265">
                </Location>
                <Location
-                  uuid = "E33CEA11-E04C-4F97-BCED-BC66F8E3C402 - cfa168cbe0687f57"
+                  uuid = "E33CEA11-E04C-4F97-BCED-BC66F8E3C402 - bbdeafe48e22f452"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 @Swift.MainActor () -&gt; () in CryptoApp.CryptoListPresenter.cryptoPriceResponse(response: Swift.Result&lt;NetworkLayer.CryptoPricesResponse, NetworkLayer.ErrorType&gt;) -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "42"
@@ -180,14 +180,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "0F1B04C6-96A5-4251-A758-DB3E36C74B34 - fea9672ca64b9cec"
+                  uuid = "0F1B04C6-96A5-4251-A758-DB3E36C74B34 - 8ad6a003c80115eb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(1) suspend resume partial function for CryptoApp.CryptoListPresenter.successCryptoListV2(NetworkLayer.CryptoResponseData) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "67"
@@ -195,14 +195,14 @@
                   offsetFromSymbolStart = "2063">
                </Location>
                <Location
-                  uuid = "0F1B04C6-96A5-4251-A758-DB3E36C74B34 - 8b06cd064470d6fa"
+                  uuid = "0F1B04C6-96A5-4251-A758-DB3E36C74B34 - ff790a292a3a5fff"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in CryptoApp.CryptoListPresenter.successCryptoListV2(NetworkLayer.CryptoResponseData) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "68"
@@ -228,14 +228,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "CD4D081C-160F-4620-8081-B80CF3191747 - 53bc5dbb4eb6a881"
+                  uuid = "CD4D081C-160F-4620-8081-B80CF3191747 - d52085f1dbbd2749"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(1) suspend resume partial function for CryptoApp.CryptoDetailsDisplay.fetchCrypotDailyPrices(symbol: Swift.String) async -&gt; Swift.Result&lt;NetworkLayer.CryptoDailyPricesResponse, NetworkLayer.ErrorType&gt;"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Worker.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Worker.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -243,14 +243,14 @@
                   offsetFromSymbolStart = "258">
                </Location>
                <Location
-                  uuid = "CD4D081C-160F-4620-8081-B80CF3191747 - d164bd6ee49a3326"
+                  uuid = "CD4D081C-160F-4620-8081-B80CF3191747 - 57f865247191bcee"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(2) await resume partial function for CryptoApp.CryptoDetailsDisplay.fetchCrypotDailyPrices(symbol: Swift.String) async -&gt; Swift.Result&lt;NetworkLayer.CryptoDailyPricesResponse, NetworkLayer.ErrorType&gt;"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Worker.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Worker.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -258,14 +258,14 @@
                   offsetFromSymbolStart = "34">
                </Location>
                <Location
-                  uuid = "CD4D081C-160F-4620-8081-B80CF3191747 - 15fe9f50e6506887"
+                  uuid = "CD4D081C-160F-4620-8081-B80CF3191747 - 9362471a735be74f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(3) suspend resume partial function for CryptoApp.CryptoDetailsDisplay.fetchCrypotDailyPrices(symbol: Swift.String) async -&gt; Swift.Result&lt;NetworkLayer.CryptoDailyPricesResponse, NetworkLayer.ErrorType&gt;"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Worker.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Worker.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -339,14 +339,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 6b8beb16dcdb93aa"
+                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 4e54816d267fcc"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(1) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "24"
@@ -354,14 +354,14 @@
                   offsetFromSymbolStart = "761">
                </Location>
                <Location
-                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 68b4803af732cfac"
+                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 3713fad46cf23ca"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(3) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "24"
@@ -369,14 +369,14 @@
                   offsetFromSymbolStart = "935">
                </Location>
                <Location
-                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 279f68f032a31f50"
+                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 4c5ad767835ef336"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(4) await resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "24"
@@ -384,14 +384,14 @@
                   offsetFromSymbolStart = "34">
                </Location>
                <Location
-                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 69e1355d11680b8d"
+                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 2248acaa095e62f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(5) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "23"
@@ -399,14 +399,14 @@
                   offsetFromSymbolStart = "97">
                </Location>
                <Location
-                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 69e1355d11680bae"
+                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 2248acaa095e7c8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(5) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "24"
@@ -432,14 +432,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 6b8beb16dcdb9389"
+                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 4e54816d267e2b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(1) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "23"
@@ -447,14 +447,14 @@
                   offsetFromSymbolStart = "293">
                </Location>
                <Location
-                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 798bf0edb845a37d"
+                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 124e4f7a09b84edf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(2) await resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "23"
@@ -462,14 +462,14 @@
                   offsetFromSymbolStart = "34">
                </Location>
                <Location
-                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 68b4803af732cf8f"
+                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 3713fad46cf222d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(3) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "23"
@@ -477,14 +477,14 @@
                   offsetFromSymbolStart = "192">
                </Location>
                <Location
-                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 69e1355d11680b8d"
+                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 2248acaa095e62f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(5) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
                   moduleName = "CryptoApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/inter/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "23"
