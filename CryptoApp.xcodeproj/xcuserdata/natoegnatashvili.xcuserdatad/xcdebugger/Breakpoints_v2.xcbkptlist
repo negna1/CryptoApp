@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6B491F3D-F839-4171-8CCD-8DD4E1A70848"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2333A414-081F-425F-9365-6F1747467329"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "cryptoPriceResponse(response:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9D020C1-0C62-4585-8D7A-6CCB2BAF86E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Models/Crypto.Store.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "updateViewModelWithPrices(prices:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E33CEA11-E04C-4F97-BCED-BC66F8E3C402"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "cryptoPriceResponse(response:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E33CEA11-E04C-4F97-BCED-BC66F8E3C402 - 32d681321cc923b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoApp.CryptoListPresenter.cryptoPriceResponse(response: Swift.Result&lt;NetworkLayer.CryptoPricesResponse, NetworkLayer.ErrorType&gt;) -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "265">
+               </Location>
+               <Location
+                  uuid = "E33CEA11-E04C-4F97-BCED-BC66F8E3C402 - cfa168cbe0687f57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in CryptoApp.CryptoListPresenter.cryptoPriceResponse(response: Swift.Result&lt;NetworkLayer.CryptoPricesResponse, NetworkLayer.ErrorType&gt;) -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "63">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71F1C62B-E316-4201-8F66-8AD3FE2E241E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Models/Crypto.Store.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "updateViewModelWithPrices(prices:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "71F1C62B-E316-4201-8F66-8AD3FE2E241E - 1ff05d46d58a858a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoApp.CryptoDataStore.updateViewModelWithPrices(prices: Swift.Array&lt;(id: Swift.String, price: Swift.Double)&gt;) -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Models/Crypto.Store.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "71F1C62B-E316-4201-8F66-8AD3FE2E241E - 4b2e3b4bf24a6e51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((id: Swift.String, price: Swift.Double)) -&gt; () in CryptoApp.CryptoDataStore.updateViewModelWithPrices(prices: Swift.Array&lt;(id: Swift.String, price: Swift.Double)&gt;) -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Models/Crypto.Store.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BCEBD42-2405-4158-B2A6-E0A88D67CEE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Models/Crypto.Store.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "increaseItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23A61976-97B5-41C6-9338-0850BAA34E89"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Models/Crypto.Store.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "increaseItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F1B04C6-96A5-4251-A758-DB3E36C74B34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "successCryptoListV2(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F1B04C6-96A5-4251-A758-DB3E36C74B34 - fea9672ca64b9cec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CryptoApp.CryptoListPresenter.successCryptoListV2(NetworkLayer.CryptoResponseData) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "2063">
+               </Location>
+               <Location
+                  uuid = "0F1B04C6-96A5-4251-A758-DB3E36C74B34 - 8b06cd064470d6fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in CryptoApp.CryptoListPresenter.successCryptoListV2(NetworkLayer.CryptoResponseData) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoList/CryptoList.Presenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "66">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD4D081C-160F-4620-8081-B80CF3191747"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Worker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchCrypotDailyPrices(symbol:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD4D081C-160F-4620-8081-B80CF3191747 - 53bc5dbb4eb6a881"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CryptoApp.CryptoDetailsDisplay.fetchCrypotDailyPrices(symbol: Swift.String) async -&gt; Swift.Result&lt;NetworkLayer.CryptoDailyPricesResponse, NetworkLayer.ErrorType&gt;"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Worker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "258">
+               </Location>
+               <Location
+                  uuid = "CD4D081C-160F-4620-8081-B80CF3191747 - d164bd6ee49a3326"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for CryptoApp.CryptoDetailsDisplay.fetchCrypotDailyPrices(symbol: Swift.String) async -&gt; Swift.Result&lt;NetworkLayer.CryptoDailyPricesResponse, NetworkLayer.ErrorType&gt;"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Worker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "CD4D081C-160F-4620-8081-B80CF3191747 - 15fe9f50e6506887"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoApp.CryptoDetailsDisplay.fetchCrypotDailyPrices(symbol: Swift.String) async -&gt; Swift.Result&lt;NetworkLayer.CryptoDailyPricesResponse, NetworkLayer.ErrorType&gt;"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Worker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F27C575D-46D5-4079-8544-0D661B9C30F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayer/Sources/NetworkLayer/NetworkLayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "fetchAsync(for:with:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B7412EC-E412-4F99-99A7-136F8A70AA96"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayer/Sources/NetworkLayer/NetworkLayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "fetchAsync(for:with:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E48FDDCB-8A65-462F-9BF8-56B15CCF1D46"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.View.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "fetchPrice(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "loadCrypto(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 6b8beb16dcdb93aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "761">
+               </Location>
+               <Location
+                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 68b4803af732cfac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "935">
+               </Location>
+               <Location
+                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 279f68f032a31f50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 69e1355d11680b8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  uuid = "EB055C08-BAC6-45F1-A20D-3F61BE02CB16 - 69e1355d11680bae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "307">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "loadCrypto(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 6b8beb16dcdb9389"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "293">
+               </Location>
+               <Location
+                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 798bf0edb845a37d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 68b4803af732cf8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "E6E87A43-B62F-485D-8520-94D30CEDA663 - 69e1355d11680b8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for CryptoApp.CryptoDetailsInteractor.loadCrypto(request: CryptoApp.CryptoDetailsModel.LoadCryptoList.Request) async -&gt; ()"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natoegnatashvili/Desktop/CryptoApp/CryptoApp/Domain/Crypto/Scenes/CryptoDetails/CryptoDetails.Interactor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "97">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
