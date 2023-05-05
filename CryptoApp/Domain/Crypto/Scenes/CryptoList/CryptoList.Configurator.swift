@@ -21,3 +21,4 @@ extension CryptoListView {
     return view
   }
 }
+

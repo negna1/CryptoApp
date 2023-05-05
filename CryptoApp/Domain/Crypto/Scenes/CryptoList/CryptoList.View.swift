@@ -11,16 +11,16 @@ protocol CryptoListDisplayLogic {
     func displayCrypto(viewModel: CryptoList.LoadCryptoList.ViewModel)
     func updatePrices(prices: [(id: String, price: Double)])
     func viewAppear()
-    func fetchPrices() async
+    func fetchPrices()
 }
 
 extension CryptoListView: CryptoListDisplayLogic {
-    private func fetchCryptos() async {
-        await interactor?.loadCrypto(request: .cryptoList)
+    private func fetchCryptos() {
+        interactor?.loadCrypto(request: .cryptoList)
     }
     
-    func fetchPrices() async {
-        await interactor?.loadCrypto(request: .prices)
+    func fetchPrices() {
+        interactor?.loadCrypto(request: .prices)
     }
     
     func updatePrices(prices: [(id: String, price: Double)]) {
@@ -35,9 +35,7 @@ extension CryptoListView: CryptoListDisplayLogic {
         guard !isPresented else { return }
         cryptoStore.viewModel.state = .loading
         self.isPresented = true
-        Task {
-            await fetchCryptos()
-        }
+        fetchCryptos()
     }
 }
 

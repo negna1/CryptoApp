@@ -9,7 +9,7 @@ import Foundation
 import NetworkLayer
 
 protocol CryptoListPresentationLogic {
-    func presentCryptoList(response: CryptoList.LoadCryptoList.Response) async
+    func presentCryptoList(response: CryptoList.LoadCryptoList.Response)
 }
 
 final class CryptoListPresenter {
@@ -17,19 +17,19 @@ final class CryptoListPresenter {
 }
 
 extension CryptoListPresenter: CryptoListPresentationLogic {
-    func presentCryptoList(response: CryptoList.LoadCryptoList.Response) async {
+    func presentCryptoList(response: CryptoList.LoadCryptoList.Response) {
         switch response {
         case .cryptoResponse(let result):
-            await self.cryptoListResponseV2(response: result)
+            self.cryptoListResponse(response: result)
         case .cryptoPrices(let result):
             self.cryptoPriceResponse(response: result)
         }
     }
     
-    func cryptoListResponseV2(response: Result<CryptoResponseData, ErrorType>) async {
+    func cryptoListResponse(response: Result<CryptoResponseData, ErrorType>) {
         switch response {
         case .success(let cryptos):
-            await self.successCryptoListV2(cryptos)
+            self.successCryptoList(cryptos)
         case .failure(let error):
             self.failCryptoList(error)
         }
@@ -51,23 +51,12 @@ extension CryptoListPresenter: CryptoListPresentationLogic {
 //MARK: - Success and Fail -
 extension CryptoListPresenter {
     
-    private func successCryptoListV2(_ cryptos: CryptoResponseData) async {
-        var dict = [String: CryptoDetails]()
-        cryptos.response?.forEach({ resp in
-            guard let id = resp.id,
-            let symbol = resp.symbol else { return }
-            dict[id] = CryptoDetails.init(id: id, symbol: symbol)
-        })
-        let neetToCutDown = dict.count > CryptoDataStore.loadItemCount
-        let values = Array(dict.values)
-        let shownvalues = neetToCutDown ? Array(values[0...CryptoDataStore.loadItemCount]) : values
-        let viewModel = CryptoList.LoadCryptoList.ViewModel.init(cryptoList: dict,
-                                                                 currentCryptos: shownvalues,
-                                                                 state: .content(shownvalues))
+    private func successCryptoList(_ cryptos: CryptoResponseData)  {
+        let viewModel = getViewModel(cryptos)
         DispatchQueue.main.async {
             self.view?.displayCrypto(viewModel: viewModel)
         }
-        await self.view?.fetchPrices()
+        self.view?.fetchPrices()
     }
     
     private func failCryptoList(_ error: ErrorType) {
@@ -75,5 +64,20 @@ extension CryptoListPresenter {
         DispatchQueue.main.async {
             self.view?.displayCrypto(viewModel: viewModel)
         }
+    }
+    
+    private func getViewModel(_ cryptos: CryptoResponseData) -> CryptoList.LoadCryptoList.ViewModel{
+        var dict = [String: CryptoDetails]()
+        cryptos.response?.forEach({ resp in
+            guard let id = resp.id,
+                  let symbol = resp.symbol else { return }
+            dict[id] = CryptoDetails.init(id: id, symbol: symbol)
+        })
+        let neetToCutDown = dict.count > CryptoDataStore.loadItemCount
+        let values = Array(dict.values)
+        let shownvalues = neetToCutDown ? Array(values[0...CryptoDataStore.loadItemCount]) : values
+        return CryptoList.LoadCryptoList.ViewModel(cryptoList: dict,
+                                                   currentCryptos: shownvalues,
+                                                   state: .content(shownvalues))
     }
 }
