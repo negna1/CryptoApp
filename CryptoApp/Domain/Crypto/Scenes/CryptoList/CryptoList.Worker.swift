@@ -14,15 +14,16 @@ protocol CryptoListDisplayWorker {
 }
 
 final class CryptoListDisplay: CryptoListDisplayWorker {
+    public var networkLayer: NetworkLayerProtocol = NetworkLayer()
     func fetcCryptoList() async -> Result<CryptoResponseData, ErrorType> {
         let request = URLRequest.allCrypto()
-        let response = await fetchAsync(for: request, with: CryptoResponseData.self)
+        let response = await networkLayer.fetchAsync(for: request, with: CryptoResponseData.self)
         return response
     }
     
     func fetcCryptoPrices() async -> Result<CryptoPricesResponse, ErrorType> {
         let request = URLRequest.pricesCrypto()
-        let response = await fetchAsync(for: request, with: CryptoPricesResponse.self)
+        let response = await networkLayer.fetchAsync(for: request, with: CryptoPricesResponse.self)
         return response
     }
 }

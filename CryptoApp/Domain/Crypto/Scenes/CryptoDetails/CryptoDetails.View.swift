@@ -10,14 +10,14 @@ import NetworkLayer
 
 protocol CryptoDetailsDisplayLogic {
     func displayCrypto(viewModel: CryptoDetailsModel.LoadCryptoList.ViewModel)
-    func fetchPrice(with symbol: String) async
+    func fetchPrice(with symbol: String) 
 }
 
 extension CryptoDetailsView: CryptoDetailsDisplayLogic {
-    func fetchPrice(with symbol: String) async {
+    func fetchPrice(with symbol: String) {
         if lastcrypto == symbol { return }
         lastcrypto = symbol
-        await interactor?.loadCrypto(request: .history(symbol: symbol))
+        interactor?.loadCrypto(request: .history(symbol: symbol))
     }
     
     func displayCrypto(viewModel: CryptoDetailsModel.LoadCryptoList.ViewModel) {

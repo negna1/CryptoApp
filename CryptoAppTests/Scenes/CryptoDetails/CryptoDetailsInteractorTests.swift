@@ -28,10 +28,8 @@ class CryptoDetailsInteractorTests: XCTestCase {
         sut.presenter = presenterSpy
         let cryptoList: CryptoDailyPricesResponse = .sample
         let expectation = self.expectation(description: "Waiting for the retrieveAlumni call to complete.")
-        Task {
-            await sut.loadCrypto(request: .history(symbol: "ETH"))
-            expectation.fulfill()
-        }
+        sut.loadCrypto(request: .history(symbol: "ETH"))
+        expectation.fulfill()
         
         await waitForExpectations(timeout: 4) { error in
             XCTAssertNil(error)
@@ -76,13 +74,13 @@ class CryptoDetailsInteractorTests: XCTestCase {
 //MARK: - Worker spys -
 extension CryptoDetailsInteractorTests {
     class workerSpy: CryptoDetailsDisplayWorker {
-        func fetchCrypotDailyPrices(symbol: String) async -> Result<NetworkLayer.CryptoDailyPricesResponse, NetworkLayer.ErrorType> {
+        func fetchCrypotDailyPrices(symbol: String) async -> Result<CryptoDailyPricesResponse, ErrorType> {
             return .success(.sample)
         }
     }
     
     class ErrorWorkerSpy: CryptoDetailsDisplayWorker {
-        func fetchCrypotDailyPrices(symbol: String) async -> Result<NetworkLayer.CryptoDailyPricesResponse, NetworkLayer.ErrorType> {
+        func fetchCrypotDailyPrices(symbol: String) async -> Result<CryptoDailyPricesResponse, ErrorType> {
             return .failure(.urlError)
         }
     }
@@ -91,7 +89,7 @@ extension CryptoDetailsInteractorTests {
 //MARK: - Presenter spy -
 extension CryptoDetailsInteractorTests{
     class CryptoDetailsPresenterSpy: CryptoDetailsPresentationLogic {
-        func presentCryptoDailyPrices(response: CryptoApp.CryptoDetailsModel.LoadCryptoList.Response) async {
+        func presentCryptoDailyPrices(response: CryptoDetailsModel.LoadCryptoList.Response) {
             switch response {
             case .cryptoPrices(let result):
                 switch result {

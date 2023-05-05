@@ -8,7 +8,7 @@
 import Foundation
 
 protocol CryptoDetailsBusinessLogic {
-    func loadCrypto(request: CryptoDetailsModel.LoadCryptoList.Request) async
+    func loadCrypto(request: CryptoDetailsModel.LoadCryptoList.Request) 
 }
 
 final class CryptoDetailsInteractor {
@@ -17,11 +17,13 @@ final class CryptoDetailsInteractor {
 }
 
 extension CryptoDetailsInteractor: CryptoDetailsBusinessLogic {
-    func loadCrypto(request: CryptoDetailsModel.LoadCryptoList.Request) async {
+    func loadCrypto(request: CryptoDetailsModel.LoadCryptoList.Request) {
         switch request {
         case .history(let symbol):
-            guard let result = await worker?.fetchCrypotDailyPrices(symbol: symbol) else { return }
-            await presenter?.presentCryptoDailyPrices(response: CryptoDetailsModel.LoadCryptoList.Response.cryptoPrices(result))
+            Task {
+                guard let result = await worker?.fetchCrypotDailyPrices(symbol: symbol) else { return }
+                await presenter?.presentCryptoDailyPrices(response: CryptoDetailsModel.LoadCryptoList.Response.cryptoPrices(result))
+            }
         }
     }
 }

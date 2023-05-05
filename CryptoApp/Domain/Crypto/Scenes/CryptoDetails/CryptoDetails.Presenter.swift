@@ -9,7 +9,7 @@ import Foundation
 import NetworkLayer
 
 protocol CryptoDetailsPresentationLogic {
-    func presentCryptoDailyPrices(response: CryptoDetailsModel.LoadCryptoList.Response) async
+    func presentCryptoDailyPrices(response: CryptoDetailsModel.LoadCryptoList.Response)
 }
 
 final class CryptoDetailsPresenter {
@@ -17,12 +17,12 @@ final class CryptoDetailsPresenter {
 }
 
 extension CryptoDetailsPresenter: CryptoDetailsPresentationLogic {
-    func presentCryptoDailyPrices(response: CryptoDetailsModel.LoadCryptoList.Response) async {
+    func presentCryptoDailyPrices(response: CryptoDetailsModel.LoadCryptoList.Response) {
         switch response {
         case .cryptoPrices(let response):
             switch response {
             case .success(let success):
-                await self.successCryptoDailyPrice(success)
+                self.successCryptoDailyPrice(success)
             case .failure(let failure):
                 self.failCryptoDailyPrice(failure)
             }
@@ -36,7 +36,7 @@ extension CryptoDetailsPresenter {
         prices.response.filter({(Double($0.key) ?? 0) >= Date.today})
     }
     
-    private func successCryptoDailyPrice(_ prices: CryptoDailyPricesResponse) async {
+    private func successCryptoDailyPrice(_ prices: CryptoDailyPricesResponse) {
         
         let priceFilteredToday = getTodayPricesFiltered(prices)
         let wrappedPrices = Array(priceFilteredToday.values).map({CryptoDailyPrice(with: $0)})

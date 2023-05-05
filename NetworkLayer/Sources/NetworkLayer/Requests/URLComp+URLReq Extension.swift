@@ -9,20 +9,20 @@ import Foundation
 
 extension URLComponents {
     public static func history(queries: [URLQueryItem])-> Self {
-        URLComponents(host: .fscapi,
-                             path: .history,
+        URLComponents(host: HostType.fscapi,
+                             path: PathType.history,
                              queryItems: queries)
     }
     
     public static func allCrypto(queries: [URLQueryItem]) -> Self {
-        URLComponents(host: .fscapi,
-                             path: .allCrypto,
+        URLComponents(host: HostType.fscapi,
+                             path: PathType.allCrypto,
                       queryItems: queries)
     }
     
     public static func pricesCrypto(queries: [URLQueryItem]) -> Self {
-        URLComponents(host: .fscapi,
-                             path: .prices,
+        URLComponents(host: HostType.fscapi,
+                             path: PathType.prices,
                       queryItems: queries)
     }
 }

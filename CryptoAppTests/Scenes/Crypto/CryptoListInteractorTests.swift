@@ -24,16 +24,12 @@ class CryptoInteractorTests: XCTestCase {
     
     // MARK: - Tests
     func testSuccessCall() async {
-        // Given
         sut.presenter = presenterSpy
         let cryptoList: [CryptoResponse] = [.sample]
-        // When
         let request = CryptoList.LoadCryptoList.Request.cryptoList
         let expectation = self.expectation(description: "Waiting for the retrieveAlumni call to complete.")
-        Task {
-            await sut.loadCrypto(request: request)
-            expectation.fulfill()
-        }
+        sut.loadCrypto(request: request)
+        expectation.fulfill()
         
         await waitForExpectations(timeout: 4) { error in
             XCTAssertNil(error)
@@ -46,16 +42,12 @@ class CryptoInteractorTests: XCTestCase {
     }
     
     func testErrorCall() async {
-        // Given
         sut.worker = ErrorWorkerSpy()
         sut.presenter = presenterSpy
-        // When
         let request = CryptoList.LoadCryptoList.Request.cryptoList
         let expectation = self.expectation(description: "Waiting for the get crypto  call to complete.")
-        Task {
-            await sut.loadCrypto(request: request)
-            expectation.fulfill()
-        }
+        sut.loadCrypto(request: request)
+        expectation.fulfill()
         
         await waitForExpectations(timeout: 4) { error in
             XCTAssertNil(error)
@@ -78,21 +70,21 @@ class CryptoInteractorTests: XCTestCase {
 //MARK: - Worker spys -
 extension CryptoInteractorTests {
     class workerSpy: CryptoListDisplayWorker {
-        func fetcCryptoList() async -> Result<NetworkLayer.CryptoResponseData, NetworkLayer.ErrorType> {
+        func fetcCryptoList() async -> Result<CryptoResponseData, ErrorType> {
             return .success(.sample)
         }
         
-        func fetcCryptoPrices() async -> Result<NetworkLayer.CryptoPricesResponse, NetworkLayer.ErrorType> {
+        func fetcCryptoPrices() async -> Result<CryptoPricesResponse, ErrorType> {
             return .success(.sample)
         }
     }
     
     class ErrorWorkerSpy: CryptoListDisplayWorker {
-        func fetcCryptoList() async -> Result<NetworkLayer.CryptoResponseData, NetworkLayer.ErrorType> {
+        func fetcCryptoList() async -> Result<CryptoResponseData, ErrorType> {
             return .failure(.urlError)
         }
         
-        func fetcCryptoPrices() async -> Result<NetworkLayer.CryptoPricesResponse, NetworkLayer.ErrorType> {
+        func fetcCryptoPrices() async -> Result<CryptoPricesResponse, ErrorType> {
             return .failure(.urlError)
         }
     }

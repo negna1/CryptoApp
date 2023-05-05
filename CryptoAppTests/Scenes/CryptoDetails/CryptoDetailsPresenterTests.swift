@@ -9,10 +9,8 @@ import XCTest
 @testable import CryptoApp
 
 class CryptoDetailsPresenterTests: XCTestCase {
-    // swiftlint:disable implicitly_unwrapped_optional
     var sut: CryptoDetailsPresenter!
     var viewSpy: CryptoDetailsViewSpy!
-    // swiftlint:enable implicitly_unwrapped_optional
     
     override func setUpWithError() throws {
         try super.setUpWithError()
@@ -26,7 +24,7 @@ class CryptoDetailsPresenterTests: XCTestCase {
             self.state = viewModel.state
         }
         
-        func fetchPrice(with symbol: String) async {
+        func fetchPrice(with symbol: String) {
             fetchPriceCall = true
         }
         
@@ -37,7 +35,6 @@ class CryptoDetailsPresenterTests: XCTestCase {
     
     // MARK: - Tests
     func testLoadCryptoListLoading() {
-        // Given
         sut.view = viewSpy
         XCTAssertEqual(
             self.viewSpy.state,
@@ -48,7 +45,6 @@ class CryptoDetailsPresenterTests: XCTestCase {
     
     // MARK: - Tests
     func testLoadCryptoListByPresenter() async {
-        // Given
         sut.view = viewSpy
         await sut.presentCryptoDailyPrices(response: .cryptoPrices(.success(.sample)))
         

@@ -13,11 +13,12 @@ protocol CryptoDetailsDisplayWorker {
 }
 
 final class CryptoDetailsDisplay: CryptoDetailsDisplayWorker {
+    public var networkLayer: NetworkLayerProtocol = NetworkLayer()
     public init() {}
     func fetchCrypotDailyPrices(symbol: String) async -> Result<CryptoDailyPricesResponse, ErrorType> {
         let request = URLRequest.history(queries: [.init(name: "symbol", value: symbol),
                                                    .accessKey])
-        let response = await fetchAsync(for: request, with: CryptoDailyPricesResponse.self)
+        let response = await networkLayer.fetchAsync(for: request, with: CryptoDailyPricesResponse.self)
         return response
     }
 }

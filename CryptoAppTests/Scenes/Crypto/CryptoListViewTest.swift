@@ -21,7 +21,7 @@ class CreateCryptoListViewTests: XCTestCase {
     // MARK: - Test doubles
     class CryptoListInteractorSpy: CryptoListBusinessLogic {
         var loadCalled = false
-        func loadCrypto(request: CryptoApp.CryptoList.LoadCryptoList.Request) async {
+        func loadCrypto(request: CryptoApp.CryptoList.LoadCryptoList.Request) {
             loadCalled = true
         }
     }
@@ -29,7 +29,6 @@ class CreateCryptoListViewTests: XCTestCase {
     // MARK: - Tests
     func testShouldMakeLoading() {
         sut.interactor = interactorSpy
-        sut.viewAppear()
         XCTAssertTrue(
             !interactorSpy.loadCalled,
             "Loading state"
